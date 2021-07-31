@@ -6,7 +6,7 @@ init()
 
 s = socket.socket(socket.AF_INET , socket.SOCK_STREAM)
 
-s.bind(('192.168.1.50',9990))
+s.bind(('localhost',9990))
 
 s.listen(20)
 
